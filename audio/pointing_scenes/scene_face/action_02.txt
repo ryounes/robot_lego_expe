@@ -1,0 +1,5 @@
+0.0638548731803894	1.4570521116256714	0action_2_idle0	.Pour commencer la bouche, 
+1.4570521116256714	2.7109296321868896	0action_2_PickH	mets ce cube rouge, @ 1.8401814103126526
+2.7109296321868896	2.7109296321868896	0action_2_Retract0	"Nothing is said"
+2.7109296321868896	9.752381	0action_2_PlaceH	au Sud du deuxième oeil bleu en laissant deux tenons libres. son côté Est doit être aligné avec le côté Ouest du deuxième oeil bleu.@ 3.285623550415039
+9.752381	9.752381	0action_2_RetractNextP	"Nothing is said"

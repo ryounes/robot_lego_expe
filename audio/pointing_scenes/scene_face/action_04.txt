@@ -1,0 +1,5 @@
+0.0638548731803894	1.375782310962677	0action_4_idle0	.Pour terminer la bouche, 
+1.375782310962677	2.6180498600006104	0action_4_PickH	mets ce cube rouge, @ 1.7356916069984436
+2.6180498600006104	2.6180498600006104	0action_4_Retract0	"Nothing is said"
+2.6180498600006104	4.8297505	0action_4_PlaceH	au coin Nord-Est de la barre précédente.@ 3.6455328464508057
+4.8297505	4.8297505	0action_4_RetractNextP	"Nothing is said"

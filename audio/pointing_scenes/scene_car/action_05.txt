@@ -1,0 +1,4 @@
+0.0638548731803894	2.304580569267273	0action_5_PickH	.Mets cette barre rouge orientée Est-Ouest, @ 0.49342402815818787
+2.304580569267273	2.304580569267273	0action_5_Retract0	"Nothing is said"
+2.304580569267273	4.516281	0action_5_PlaceH	collée à l'Ouest de la rampe précédente.@ 3.3030385971069336
+4.516281	4.516281	0action_5_RetractNextP	"Nothing is said"

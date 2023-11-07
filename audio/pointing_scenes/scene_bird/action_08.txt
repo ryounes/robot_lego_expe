@@ -1,0 +1,5 @@
+0.0638548731803894	1.2190476059913635	0action_8_idle0	.Pour faire la tête, 
+1.2190476059913635	2.461315155029297	0action_8_PickH	mets ce cube jaune, @ 1.5963718891143799
+2.461315155029297	2.461315155029297	0action_8_Retract0	"Nothing is said"
+2.461315155029297	4.9806805	0action_8_PlaceH	sur la partie Ouest de la rampe précédente.@ 2.7805895805358887
+4.9806805	4.9806805	0action_8_RetractNextP	"Nothing is said"

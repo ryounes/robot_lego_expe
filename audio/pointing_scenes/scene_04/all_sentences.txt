@@ -1,0 +1,54 @@
+
+Tags in sentence
+		dic = {
+			"context": robot arm does nothing, and only the audio is played stating the context
+			"what": stating what
+			"where": stating where
+			"REF": referencing an object before stating where (e.g. action_06 action_11)
+			"RET": retract to mid section awaiting user participation (same position as RETN)
+			"RETN": used as a starting point for the next action (same position as RET)
+			"MRET": mini retraction such as in actions 6 and 11
+		}
+
+
+The robot tags
+	<ABC>
+	A : precondition
+	B : indication of the action; 
+		idle means robot does nothing; 
+		ref means there is a reference, (e.g. action_06 action_11)
+	C : postcondition
+
+without the tags
+	action_-1	.Je vais vous aider à construire une tour bleue, une croix jaune et une tour rouge.§
+	action_00	.Je commence en plaçant un cube de la tour bleue.§
+	action_01	.Mets un autre cube bleu~ dessus. 
+	action_02	.Pour terminer la tour, mets-en un dernier~ dessus. 
+	action_03	.Pour commencer la croix, mets un cube jaune, sur la table, à l'Ouest de la tour bleue en laissant cinq tenons libres. son côté Nord doit être aligné avec le côté Sud de la tour. 
+	action_04	.Mets une barre jaune orientée Nord-Sud, collée à l'Ouest du cube précédent. 
+	action_05	.Pour terminer la croix, mets un cube jaune, collé à l'Ouest de la barre précédente. 
+	action_06	.Pour commencer la tour rouge, mets un cube rouge, à l'Ouest de la tour bleue en laissant un tenon libre et cinq tenons libres vers le Sud. 
+	action_07	.Mets-en un autre~ dessus. 
+	action_08	.Pour terminer la tour rouge, mets-en un dernier~ dessus. 
+	action_n	.La construction est finie.§
+
+
+
+
+
+with the tags
+	action_-1	.Je vais vous aider à construire une tour bleue, une croix jaune et une tour rouge.§
+	action_00	.Je commence en plaçant un cube de la tour bleue.§
+	action_01	.Mets un@ autre cube bleu~ <what><RET>dessus. <where><RETN>
+	action_02	.Pour terminer la tour, <context>mets-en un@ dernier~ <what><RET>dessus. <where><RETN>
+	action_03	.Pour commencer la croix, <context>mets un@ cube jaune, <what><RET>sur la table, à l'Ouest de la@ tour bleue en laissant cinq tenons libres. son côté Nord doit être aligné avec le côté Sud de la tour. <where><RETN>
+	action_04	.Mets une@ barre jaune orientée Nord-Sud, <what><RET>collée à l'Ouest du@ cube précédent. <where><RETN>
+	action_05	.Pour terminer la croix, <context>mets un@ cube jaune, <what><RET>collé à l'Ouest de la@ barre précédente. <where><RETN>
+	action_06	.Pour commencer la tour rouge, <context>mets un@ cube rouge, <what><RET>à l'Ouest de la@ tour bleue en laissant un tenon libre et cinq tenons libres vers le Sud. <where><RETN>
+	action_07	.Mets-en un@ autre~ <what><RET>dessus. <where><RETN>
+	action_08	.Pour terminer la tour rouge, <context>mets-en un@ dernier~ <what><RET>dessus. <where><RETN>
+	action_n	.La construction est finie.§
+
+
+
+

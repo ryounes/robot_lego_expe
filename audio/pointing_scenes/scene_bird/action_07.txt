@@ -1,0 +1,5 @@
+0.0638548731803894	1.2132426500320435	0action_7_idle0	.Pour faire le bec, 
+1.2132426500320435	3.6281179189682007	0action_7_PickH	mets cette rampe rouge orientée Est-Ouest, @ 1.7008616924285889
+3.6281179189682007	3.6281179189682007	0action_7_Retract0	"Nothing is said"
+3.6281179189682007	7.3839455	0action_7_PlaceH	au-dessus avec le côté Ouest aligné avec celui du cube précédent.@ 6.304217576980591
+7.3839455	7.3839455	0action_7_RetractNextP	"Nothing is said"

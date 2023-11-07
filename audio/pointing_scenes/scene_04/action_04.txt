@@ -1,0 +1,4 @@
+0.0638548731803894	2.2639455795288086	0action_4_PickH	.Mets cette barre jaune orientée Nord-Sud, @ 0.49342402815818787
+2.2639455795288086	2.2639455795288086	0action_4_Retract0	"Nothing is said"
+2.2639455795288086	4.1795917	0action_4_PlaceH	collée à l'Ouest du cube précédent.@ 3.1521087884902954
+4.1795917	4.1795917	0action_4_RetractNextP	"Nothing is said"

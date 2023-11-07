@@ -1,0 +1,5 @@
+0.0638548731803894	1.3699772953987122	0action_3_idle0	.Pour commencer la croix, 
+1.3699772953987122	2.6354647874832153	0action_3_PickH	mets ce cube jaune, @ 1.7647165060043335
+2.6354647874832153	2.6354647874832153	0action_3_Retract0	"Nothing is said"
+2.6354647874832153	9.949751	0action_3_PlaceH	sur la table, à l'Ouest de la tour bleue en laissant cinq tenons libres. son côté Nord doit être aligné avec le côté Sud de la tour.@ 4.318911552429199
+9.949751	9.949751	0action_3_RetractNextP	"Nothing is said"

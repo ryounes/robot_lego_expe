@@ -1,0 +1,5 @@
+0.0638548731803894	1.3003174662590027	0action_1_idle0	.Pour terminer le pied, 
+1.3003174662590027	2.5774149894714355	0action_1_PickH	mets ce cube rouge, @ 1.677641749382019
+2.5774149894714355	2.5774149894714355	0action_1_Retract0	"Nothing is said"
+2.5774149894714355	4.760091	0action_1_PlaceH	collé à l'Ouest de la rampe précédente.@ 3.575873017311096
+4.760091	4.760091	0action_1_RetractNextP	"Nothing is said"
