@@ -1,0 +1,5 @@
+0.0638548731803894	1.9795010685920715	0action_10_idle0	.Pour terminer la deuxième tour bleue, 
+1.9795010685920715	3.1056690216064453	0action_10_PickH	mets-en un dernier~ @ 2.449705123901367
+3.1056690216064453	3.1056690216064453	0action_10_Retract0	"Nothing is said"
+3.1056690216064453	3.7848525	0action_10_PlaceH	dessus.
+3.7848525	3.7848525	0action_10_RetractNextP	"Nothing is said"

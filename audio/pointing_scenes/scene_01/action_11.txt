@@ -1,0 +1,7 @@
+0.0638548731803894	1.811156451702118	0action_11_idle0	.Pour faire le deuxième pont rouge, 
+1.811156451702118	4.220226764678955	0action_11_PickH	mets cette barre rouge orientée Nord-Sud, @ 2.2929705381393433
+4.220226764678955	4.220226764678955	0action_11_Retract0	"Nothing is said"
+4.220226764678955	6.849886655807495	0action_11_Ref1H	qui recouvre le sommet bleu de la deuxième tour bleue @ 4.9632651805877686
+6.849886655807495	6.849886655807495	0action_11_MiniRetractH	"Nothing is said"
+6.849886655807495	9.206712	0action_11_PlaceH	et la partie Ouest de la barre du premier pont.@ 7.012426376342773
+9.206712	9.206712	0action_11_RetractNextP	"Nothing is said"

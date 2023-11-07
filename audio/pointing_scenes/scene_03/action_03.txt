@@ -1,0 +1,5 @@
+0.0638548731803894	1.7298865914344788	0action_3_idle0	.Pour commencer la tour rouge, 
+1.7298865914344788	2.989569067955017	0action_3_PickH	mets ce cube rouge, @ 2.1188207864761353
+2.989569067955017	2.989569067955017	0action_3_Retract0	"Nothing is said"
+2.989569067955017	10.402539	0action_3_PlaceH	sur la table, au Sud de la tour bleue en laissant quatre tenons libres. son côté Est doit être aligné avec le côté Ouest de la tour.@ 4.609161138534546
+10.402539	10.402539	0action_3_RetractNextP	"Nothing is said"

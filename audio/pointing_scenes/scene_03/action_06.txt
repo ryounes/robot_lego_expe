@@ -1,0 +1,5 @@
+0.0638548731803894	1.5441269874572754	0action_6_idle0	.Pour commencer l'escalier, 
+1.5441269874572754	3.8138774633407593	0action_6_PickH	mets cette barre jaune orientée Nord-Sud, @ 1.9620861411094666
+3.8138774633407593	3.8138774633407593	0action_6_Retract0	"Nothing is said"
+3.8138774633407593	10.913379	0action_6_PlaceH	sur la table, à l'Ouest de la tour rouge en laissant six tenons libres. son côté Sud doit être aligné avec celui de la tour rouge.@ 5.4857141971588135
+10.913379	10.913379	0action_6_RetractNextP	"Nothing is said"

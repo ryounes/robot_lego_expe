@@ -1,0 +1,7 @@
+0.0638548731803894	1.4164172410964966	0action_13_idle0	.Pour faire le pont jaune, 
+1.4164172410964966	3.726802706718445	0action_13_PickH	mets cette barre jaune orientée Nord-Sud, @ 1.8634013533592224
+3.726802706718445	3.726802706718445	0action_13_Retract0	"Nothing is said"
+3.726802706718445	5.944308280944824	0action_13_Ref1H	qui recouvre le sommet bleu de la tour bleue @ 4.452426195144653
+5.944308280944824	5.944308280944824	0action_13_MiniRetractH	"Nothing is said"
+5.944308280944824	7.9528346	0action_13_PlaceH	et la partie Est du sommet du mur.@ 6.1068480014801025
+7.9528346	7.9528346	0action_13_RetractNextP	"Nothing is said"

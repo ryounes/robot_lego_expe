@@ -1,0 +1,7 @@
+0.0638548731803894	1.0739229321479797	0action_9_idle0	.Pour faire le pont, 
+1.0739229321479797	3.5236281156539917	0action_9_PickH	mets cette barre rouge orientée Est-Ouest, @ 1.5383219718933105
+3.5236281156539917	3.5236281156539917	0action_9_Retract0	"Nothing is said"
+3.5236281156539917	5.2767345905303955	0action_9_Ref1H	qui recouvre le sommet de la tour @ 4.266666650772095
+5.2767345905303955	5.2767345905303955	0action_9_MiniRetractH	"Nothing is said"
+5.2767345905303955	7.325896	0action_9_PlaceH	et la partie Ouest du sommet du mur.@ 5.398639440536499
+7.325896	7.325896	0action_9_RetractNextP	"Nothing is said"

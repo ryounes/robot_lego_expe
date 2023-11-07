@@ -1,0 +1,5 @@
+0.0638548731803894	1.6253968477249146	0action_2_idle0	.Pour terminer la première tour, 
+1.6253968477249146	2.64126980304718	0action_2_PickH	mets-en un dernier~ @ 2.008526086807251
+2.64126980304718	2.64126980304718	0action_2_Retract0	"Nothing is said"
+2.64126980304718	3.3088436	0action_2_PlaceH	dessus.
+3.3088436	3.3088436	0action_2_RetractNextP	"Nothing is said"

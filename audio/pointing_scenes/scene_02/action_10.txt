@@ -1,0 +1,5 @@
+0.0638548731803894	1.6079818606376648	0action_10_idle0	.Pour commencer la tour bleue, 
+1.6079818606376648	2.768979549407959	0action_10_PickH	mets ce cube bleu, @ 1.996916115283966
+2.768979549407959	2.768979549407959	0action_10_Retract0	"Nothing is said"
+2.768979549407959	9.287982	0action_10_PlaceH	sur la table, au Sud du mur rouge en laissant deux tenons libres. son côté Est doit être aligné avec celui du mur.@ 4.26086163520813
+9.287982	9.287982	0action_10_RetractNextP	"Nothing is said"

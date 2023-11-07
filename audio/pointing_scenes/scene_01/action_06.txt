@@ -1,0 +1,7 @@
+0.0638548731803894	1.4222221970558167	0action_6_idle0	.Pour faire le premier pont, 
+1.4222221970558167	3.871927499771118	0action_6_PickH	mets cette barre rouge orientée Est-Ouest, @ 1.8866212964057922
+3.871927499771118	3.871927499771118	0action_6_Retract0	"Nothing is said"
+3.871927499771118	5.7991838455200195	0action_6_Ref1H	qui recouvre le sommet de l'escalier @ 4.614965915679932
+5.7991838455200195	5.7991838455200195	0action_6_MiniRetractH	"Nothing is said"
+5.7991838455200195	7.5464854	0action_6_PlaceH	et le sommet de la première tour.@ 5.984943389892578
+7.5464854	7.5464854	0action_6_RetractNextP	"Nothing is said"

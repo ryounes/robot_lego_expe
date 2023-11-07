@@ -1,0 +1,5 @@
+0.0638548731803894	1.491882085800171	0action_8_idle0	.Pour terminer l'escalier, 
+1.491882085800171	2.7341495752334595	0action_8_PickH	mets ce cube jaune, @ 1.8750113248825073
+2.7341495752334595	2.7341495752334595	0action_8_Retract0	"Nothing is said"
+2.7341495752334595	5.13161	0action_8_PlaceH	sur la partie Nord de la brique précédente.@ 3.0360090732574463
+5.13161	5.13161	0action_8_RetractNextP	"Nothing is said"

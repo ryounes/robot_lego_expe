@@ -1,0 +1,5 @@
+0.0638548731803894	2.008526086807251	0action_7_idle0	.Pour commencer la deuxième tour bleue, 
+2.008526086807251	3.18113374710083	0action_7_PickH	mets ce cube bleu, @ 2.403265357017517
+3.18113374710083	3.18113374710083	0action_7_Retract0	"Nothing is said"
+3.18113374710083	7.337506	0action_7_PlaceH	sur la table, au Sud de la première tour bleue en laissant deux tenons libres.@ 4.771700620651245
+7.337506	7.337506	0action_7_RetractNextP	"Nothing is said"

@@ -1,0 +1,5 @@
+0.0638548731803894	1.5615419149398804	0action_3_idle0	.Pour commencer l'escalier, 
+1.5615419149398804	3.9241724014282227	0action_3_PickH	mets cette barre jaune orientée Est-Ouest, @ 2.008526027202606
+3.9241724014282227	3.9241724014282227	0action_3_Retract0	"Nothing is said"
+3.9241724014282227	8.185034	0action_3_PlaceH	sur la table, à l'Est de la première tour bleue en laissant deux tenons libres.@ 5.584398984909058
+8.185034	8.185034	0action_3_RetractNextP	"Nothing is said"

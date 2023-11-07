@@ -1,0 +1,5 @@
+0.0638548731803894	1.3409523963928223	0action_8_idle0	.Pour terminer le mur, 
+1.3409523963928223	3.9357821941375732	0action_8_PickH	mets-en une dernière~ orientée Est-Ouest, @ 1.8634013533592224
+3.9357821941375732	3.9357821941375732	0action_8_Retract0	"Nothing is said"
+3.9357821941375732	4.597551	0action_8_PlaceH	dessus.
+4.597551	4.597551	0action_8_RetractNextP	"Nothing is said"
