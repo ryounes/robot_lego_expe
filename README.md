@@ -12,7 +12,10 @@ This repository contains essential Prolog files for the planning, as well as the
 
 ### 3. Captured Scenes
 - **Contents**: This folder contains captured images of each scene.
+  
+### 4. Audio
+- **Contents**: This folder contains the audio files for each scene.
 
 ## Setting
-- Finally we have the setting which represents the initial state of each problem, i.e. the placement of the stock pile at the beginning.
+- Finally, we have the setting which represents the initial state of each problem, i.e. the placement of the stockpile at the beginning.
 
