@@ -1,0 +1,5 @@
+0.0638548731803894	1.5847618579864502	0action_2_idle0	.Pour commencer les feuillages, 
+1.5847618579864502	3.825487494468689	0action_2_PickH	mets une barre rouge orientée Est-Ouest, @ 2.014331102371216
+3.825487494468689	3.825487494468689	0action_2_Retract0	"Nothing is said"
+3.825487494468689	5.537959	0action_2_PlaceH	centrée sur le cube précédent.@ 4.545306205749512
+5.537959	5.537959	0action_2_RetractNextP	"Nothing is said"

@@ -1,0 +1,4 @@
+0.0638548731803894	1.584761917591095	0action_1_PickH	.Mets un autre cube jaune@ 0.4760090708732605
+1.584761917591095	1.584761917591095	0action_1_Retract0	"Nothing is said"
+1.584761917591095	2.3219955	0action_1_PlaceH	 dessus.
+2.3219955	2.3219955	0action_1_RetractNextP	"Nothing is said"

@@ -1,0 +1,5 @@
+0.0638548731803894	1.265487551689148	0action_11_idle0	.Pour terminer le toit
+1.265487551689148	3.517823100090027	0action_11_PickH	 mets-en une dernière orientée Est-Ouest@ 1.8692063093185425
+3.517823100090027	3.517823100090027	0action_11_Retract0	"Nothing is said"
+3.517823100090027	5.781769	0action_11_PlaceH	 collée à l'Ouest de la rampe précédente.@ 4.632380962371826
+5.781769	5.781769	0action_11_RetractNextP	"Nothing is said"

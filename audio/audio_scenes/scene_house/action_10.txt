@@ -1,0 +1,6 @@
+0.0638548731803894	2.4032652378082275	0action_10_PickH	.Mets-en encore une autre orientée Est-Ouest@ 0.8939682245254517
+2.4032652378082275	2.4032652378082275	0action_10_Retract0	"Nothing is said"
+2.4032652378082275	3.6513378620147705	0action_10_Ref1H	 qui recouvre la brique
+3.6513378620147705	3.6513378620147705	0action_10_MiniRetractH	"Nothing is said"
+3.6513378620147705	5.3289795	0action_10_PlaceH	et la rampe précédente du toit.
+5.3289795	5.3289795	0action_10_RetractNextP	"Nothing is said"

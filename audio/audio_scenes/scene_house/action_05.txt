@@ -1,0 +1,5 @@
+0.0638548731803894	2.020135998725891	0action_5_idle0	.Pour terminer la deuxième tour jaune
+2.020135998725891	3.1230838298797607	0action_5_PickH	 mets-en un dernier@ 2.565804958343506
+3.1230838298797607	3.1230838298797607	0action_5_Retract0	"Nothing is said"
+3.1230838298797607	3.8312926	0action_5_PlaceH	 dessus.
+3.8312926	3.8312926	0action_5_RetractNextP	"Nothing is said"

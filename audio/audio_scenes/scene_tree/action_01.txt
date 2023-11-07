@@ -1,0 +1,5 @@
+0.0638548731803894	1.0971428751945496	0action_1_idle0	.Pour faire le tronc, 
+1.0971428751945496	2.246530532836914	0action_1_PickH	mets un cube bleu, @ 1.4280272126197815
+2.246530532836914	2.246530532836914	0action_1_Retract0	"Nothing is said"
+2.246530532836914	6.8731065	0action_1_PlaceH	à l'Est du rocher jaune en laissant quatre tenons libres et quatre tenons libres vers le Nord.@ 2.8212244510650635
+6.8731065	6.8731065	0action_1_RetractNextP	"Nothing is said"

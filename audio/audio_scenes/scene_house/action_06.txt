@@ -1,0 +1,5 @@
+0.0638548731803894	0.9462131261825562	0action_6_idle0	.Pour faire le pont
+0.9462131261825562	3.082448959350586	0action_6_PickH	 mets une barre jaune orientée Est-Ouest@ 1.3583673238754272
+3.082448959350586	3.082448959350586	0action_6_Retract0	"Nothing is said"
+3.082448959350586	4.5743313	0action_6_PlaceH	 qui recouvre les deux tours.
+4.5743313	4.5743313	0action_6_RetractNextP	"Nothing is said"

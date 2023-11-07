@@ -1,0 +1,63 @@
+
+Tags in sentence
+		dic = {
+			"context": robot arm does nothing, and only the audio is played stating the context
+			"what": stating what
+			"where": stating where
+			"REF": referencing an object before stating where (e.g. action_06 action_11)
+			"RET": retract to mid section awaiting user participation (same position as RETN)
+			"RETN": used as a starting point for the next action (same position as RET)
+			"MRET": mini retraction such as in actions 6 and 11
+		}
+
+
+The robot tags
+	<ABC>
+	A : precondition
+	B : indication of the action; 
+		idle means robot does nothing; 
+		ref means there is a reference, (e.g. action_06 action_11)
+	C : postcondition
+
+without the tags
+	action_-1	.Je vais vous aider à construire une maison avec deux tours jaunes, un pont jaune et un toit rouge.§
+	action_00	.Je commence en plaçant un cube de la première tour jaune.§
+	action_01	.Mets un autre cube jaune~ dessus. 
+	action_02	.Pour terminer la première tour, mets-en un dernier~ dessus. 
+	action_03	.Pour commencer la deuxième tour jaune, mets-en encore un autre, sur la table, à l'Ouest de la première tour jaune en laissant deux tenons libres. 
+	action_04	.Mets-en encore un autre~ dessus. 
+	action_05	.Pour terminer la deuxième tour jaune, mets-en un dernier~ dessus. 
+	action_06	.Pour faire le pont, mets une barre jaune orientée Est-Ouest, qui recouvre les deux tours. 
+	action_07	.Pour commencer le toit, mets une brique rouge orientée Est-Ouest, sur le milieu de la barre précédente. 
+	action_08	.Mets une rampe rouge orientée Est-Ouest, à l'Ouest de la brique précédente. 
+	action_09	.Mets une rampe rouge orientée Est-Ouest, à l'Est de la brique précédente. 
+	action_10	.Mets-en encore une autre orientée Est-Ouest, qui recouvre la brique et la rampe précédente du toit. 
+	action_11	.Pour terminer le toit, mets-en une dernière orientée Est-Ouest, collée à l'Ouest de la rampe précédente. 
+	action_n	.La maison est finie.§
+
+
+
+
+
+with the tags
+	action_-1	.Je vais vous aider à construire une maison avec deux tours jaunes, un pont jaune et un toit rouge.§
+	action_00	.Je commence en plaçant un cube de la première tour jaune.§
+	action_01	.Mets un@ autre cube jaune~ <what><RET>dessus. <where><RETN>
+	action_02	.Pour terminer la première tour, <context>mets-en un@ dernier~ <what><RET>dessus. <where><RETN>
+	action_03	.Pour commencer la deuxième tour jaune, <context>mets-en encore un@ autre, <what><RET>sur la table, à l'Ouest de la@ première tour jaune en laissant deux tenons libres. <where><RETN>
+	action_04	.Mets-en encore un@ autre~ <what><RET>dessus. <where><RETN>
+	action_05	.Pour terminer la deuxième tour jaune, <context>mets-en un@ dernier~ <what><RET>dessus. <where><RETN>
+	action_06	.Pour faire le pont, <context>mets une@ barre jaune orientée Est-Ouest, <what><RET>qui recouvre les deux tours. <where><RETN>
+	action_07	.Pour commencer le toit, <context>mets une@ brique rouge orientée Est-Ouest, <what><RET>sur le milieu de la barre précédente. <where><RETN>
+	action_08	.Mets une@ rampe rouge orientée Est-Ouest, <what><RET>à l'Ouest de la@ brique précédente. <where><RETN>
+	action_09	.Mets une@ rampe rouge orientée Est-Ouest, <what><RET>à l'Est de la@ brique précédente. <where><RETN>
+	action_10	.Mets-en encore une@ autre orientée Est-Ouest, <what><RET>qui recouvre la brique <REF><MRET>et la rampe précédente du toit. <where><RETN>
+	action_11	.Pour terminer le toit, <context>mets-en une@ dernière orientée Est-Ouest, <what><RET>collée à l'Ouest de la@ rampe précédente. <where><RETN>
+	action_n	.La maison est finie.§
+
+
+
+
+
+
+

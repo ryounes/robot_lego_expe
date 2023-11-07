@@ -1,0 +1,4 @@
+0.0638548731803894	2.3858503103256226	0action_4_PickH	.Mets une brique rouge orientée Est-Ouest, @ 0.48181405663490295
+2.3858503103256226	2.3858503103256226	0action_4_Retract0	"Nothing is said"
+2.3858503103256226	5.03873	0action_4_PlaceH	sur la barre, avec les côtés Est alignés.@ 2.6993197202682495
+5.03873	5.03873	0action_4_RetractNextP	"Nothing is said"

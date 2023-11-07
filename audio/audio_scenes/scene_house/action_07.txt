@@ -1,0 +1,5 @@
+0.0638548731803894	1.2364625930786133	0action_7_idle0	.Pour commencer le toit
+1.2364625930786133	3.5468480587005615	0action_7_PickH	 mets une brique rouge orientée Est-Ouest@ 1.6718367338180542
+3.5468480587005615	3.5468480587005615	0action_7_Retract0	"Nothing is said"
+3.5468480587005615	5.619229	0action_7_PlaceH	 sur le milieu de la barre précédente.
+5.619229	5.619229	0action_7_RetractNextP	"Nothing is said"

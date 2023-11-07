@@ -1,0 +1,5 @@
+0.0638548731803894	1.5847618579864502	0action_4_idle0	.Pour terminer les feuillages, 
+1.5847618579864502	2.844444513320923	0action_4_PickH	mets un cube rouge, @ 1.9272562265396118
+2.844444513320923	2.844444513320923	0action_4_Retract0	"Nothing is said"
+2.844444513320923	4.8065305	0action_4_PlaceH	centré sur la brique précédente.@ 3.5526530742645264
+4.8065305	4.8065305	0action_4_RetractNextP	"Nothing is said"
