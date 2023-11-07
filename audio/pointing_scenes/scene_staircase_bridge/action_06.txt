@@ -1,0 +1,5 @@
+0.0638548731803894	1.0274829864501953	0action_6_idle0	.Pour faire le pont, 
+1.0274829864501953	3.2565985918045044	0action_6_PickH	mets cette barre jaune orientée Est-Ouest, @ 1.4396371841430664
+3.2565985918045044	3.2565985918045044	0action_6_Retract0	"Nothing is said"
+3.2565985918045044	4.9110203	0action_6_PlaceH	qui recouvre les deux escaliers.
+4.9110203	4.9110203	0action_6_RetractNextP	"Nothing is said"

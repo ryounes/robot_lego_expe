@@ -1,0 +1,52 @@
+
+Tags in sentence
+		dic = {
+			"context": robot arm does nothing, and only the audio is played stating the context
+			"what": stating what
+			"where": stating where
+			"REF": referencing an object before stating where (e.g. action_06 action_11)
+			"RET": retract to mid section awaiting user participation (same position as RETN)
+			"RETN": used as a starting point for the next action (same position as RET)
+			"MRET": mini retraction such as in actions 6 and 11
+		}
+
+
+The robot tags
+	<ABC>
+	A : precondition
+	B : indication of the action; 
+		idle means robot does nothing; 
+		ref means there is a reference, (e.g. action_06 action_11)
+	C : postcondition
+
+without the tags
+	action_-1	.Je vais vous aider à construire une passerelle avec deux escaliers rouges et un pont jaune.§
+	action_00	.Je commence en plaçant une barre du premier escalier rouge.§
+	action_01	.Mets une brique rouge orientée Est-Ouest, sur la barre précédente, avec les côtés Ouest alignés. 
+	action_02	.Pour terminer le premier escalier, mets un cube rouge, sur la partie Ouest de la brique précédente. 
+	action_03	.Pour commencer le deuxième escalier rouge, mets une barre rouge orientée Est-Ouest, sur la table, à l'Ouest du premier escalier rouge en laissant deux tenons libres. 
+	action_04	.Mets une brique rouge orientée Est-Ouest, sur la barre, avec les côtés Est alignés. 
+	action_05	.Pour terminer le deuxième escalier rouge, mets un cube rouge, sur la partie Est de la brique. 
+	action_06	.Pour faire le pont, mets une barre jaune orientée Nord-Sud, qui recouvre les deux escaliers. 
+	action_n	.La passerelle est finie.§ 
+
+
+
+
+
+with the tags
+	action_-1	.Je vais vous aider à construire une passerelle avec deux escaliers rouges et un pont jaune.§
+	action_00	.Je commence en plaçant une barre du premier escalier rouge.§
+	action_01	.Mets une@ brique rouge orientée Est-Ouest, <what><RET>sur la@ barre précédente, <where>avec les côtés Ouest alignés. <RETN>
+	action_02	.Pour terminer le premier escalier, <context>mets un@ cube rouge, <what><RET>sur la@ partie Ouest de la brique précédente. <where><RETN>
+	action_03	.Pour commencer le deuxième escalier rouge, <context>mets une@ barre rouge orientée Est-Ouest, <what><RET>sur la table, à l'Ouest du@ premier escalier rouge en laissant deux tenons libres. <where><RETN>
+	action_04	.Mets une@ brique rouge orientée Est-Ouest, <what><RET>sur la@ barre, <where>avec les côtés Est alignés. <RETN>
+	action_05	.Pour terminer le deuxième escalier rouge, <context>mets un@ cube rouge, <what><RET>sur la@ partie Est de la brique. <where><RETN>
+	action_06	.Pour faire le pont, <context>mets une@ barre jaune orientée Nord-Sud, <what><RET>qui recouvre les deux escaliers. <where><RETN>
+	action_n	.La passerelle est finie.§
+
+
+
+
+
+

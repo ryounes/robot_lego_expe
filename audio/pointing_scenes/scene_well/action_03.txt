@@ -1,0 +1,5 @@
+0.0638548731803894	1.277097463607788	0action_3_idle0	.Pour terminer le puits, 
+1.277097463607788	3.680362820625305	0action_3_PickH	mets cette brique rouge orientée Nord-Sud, @ 1.7473015785217285
+3.680362820625305	3.680362820625305	0action_3_Retract0	"Nothing is said"
+3.680362820625305	8.405623	0action_3_PlaceH	collée à l'Est. son côté Sud doit être aligné avec celui de la brique précédente.@ 7.151746034622192
+8.405623	8.405623	0action_3_RetractNextP	"Nothing is said"

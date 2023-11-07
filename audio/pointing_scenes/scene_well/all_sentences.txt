@@ -1,0 +1,45 @@
+
+Tags in sentence
+		dic = {
+			"context": robot arm does nothing, and only the audio is played stating the context
+			"what": stating what
+			"where": stating where
+			"REF": referencing an object before stating where (e.g. action_06 action_11)
+			"RET": retract to mid section awaiting user participation (same position as RETN)
+			"RETN": used as a starting point for the next action (same position as RET)
+			"MRET": mini retraction such as in actions 6 and 11
+		}
+
+
+The robot tags
+	<ABC>
+	A : precondition
+	B : indication of the action; 
+		idle means robot does nothing; 
+		ref means there is a reference, (e.g. action_06 action_11)
+	C : postcondition
+
+without the tags
+	action_-1	.Je vais vous aider à construire un puits rouge.§
+	action_00	.Je commence en plaçant une brique du puits rouge.§
+	action_01	.Mets une brique rouge orientée Nord-Sud, collée à l'Ouest. son côté Nord doit être aligné avec celui de la brique précédente. 
+	action_02	.Mets une brique rouge orientée Est-Ouest, collée au Sud. son côté Ouest doit être aligné avec celui de la brique précédente. 
+	action_03	.Pour terminer le puits, mets une brique rouge orientée Nord-Sud, collée à l'Est. son côté Sud doit être aligné avec celui de la brique précédente. 
+	action_n	.Le puits est fini.§
+
+
+
+
+
+with the tags
+	action_-1	.Je vais vous aider à construire un puits rouge.§
+	action_00	.Je commence en plaçant une brique du puits rouge.§
+	action_01	.Mets une@ brique rouge orientée Nord-Sud, <what><RET>collée à l'Ouest. son côté Nord doit être aligné avec celui de la@ brique précédente. <where><RETN>
+	action_02	.Mets une@ brique rouge orientée Est-Ouest, <what><RET>collée au Sud. son côté Ouest doit être aligné avec celui de la@ brique précédente. <where><RETN>
+	action_03	.Pour terminer le puits, <context>mets une@ brique rouge orientée Nord-Sud, <what><RET>collée à l'Est. son côté Sud doit être aligné avec celui de la@ brique précédente. <where><RETN>
+	action_n	.Le puits est fini.§
+
+
+
+
+

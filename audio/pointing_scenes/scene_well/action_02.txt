@@ -1,0 +1,4 @@
+0.0638548731803894	2.3684353828430176	0action_2_PickH	.Mets cette brique rouge orientée Est-Ouest, @ 0.5108389854431152
+2.3684353828430176	2.3684353828430176	0action_2_Retract0	"Nothing is said"
+2.3684353828430176	7.1401362	0action_2_PlaceH	collée au Sud. son côté Ouest doit être aligné avec celui de la brique précédente.@ 5.886258363723755
+7.1401362	7.1401362	0action_2_RetractNextP	"Nothing is said"

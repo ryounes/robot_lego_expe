@@ -1,0 +1,5 @@
+0.0638548731803894	2.2639455795288086	0action_5_idle0	.Pour terminer le deuxième escalier rouge, 
+2.2639455795288086	3.535238027572632	0action_5_PickH	mets ce cube rouge, @ 2.6586848497390747
+3.535238027572632	3.535238027572632	0action_5_Retract0	"Nothing is said"
+3.535238027572632	5.3521996	0action_5_PlaceH	sur la partie Est de la brique.@ 3.8661224842071533
+5.3521996	5.3521996	0action_5_RetractNextP	"Nothing is said"

@@ -1,0 +1,4 @@
+0.0638548731803894	2.3626303672790527	0action_8_PickH	.Mets cette rampe rouge orientée Est-Ouest, @ 0.5108389854431152
+2.3626303672790527	2.3626303672790527	0action_8_Retract0	"Nothing is said"
+2.3626303672790527	4.609161	0action_8_PlaceH	collée à l'Ouest de la brique précédente.@ 3.3436734676361084
+4.609161	4.609161	0action_8_RetractNextP	"Nothing is said"

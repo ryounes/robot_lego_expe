@@ -1,0 +1,44 @@
+
+Tags in sentence
+		dic = {
+			"context": robot arm does nothing, and only the audio is played stating the context
+			"what": stating what
+			"where": stating where
+			"REF": referencing an object before stating where (e.g. action_06 action_11)
+			"RET": retract to mid section awaiting user participation (same position as RETN)
+			"RETN": used as a starting point for the next action (same position as RET)
+			"MRET": mini retraction such as in actions 6 and 11
+		}
+
+
+The robot tags
+	<ABC>
+	A : precondition
+	B : indication of the action; 
+		idle means robot does nothing; 
+		ref means there is a reference, (e.g. action_06 action_11)
+	C : postcondition
+
+without the tags
+	action_-1	.Je vais vous aider à construire un sapin avec un tronc bleu et des feuillages rouges.§
+	action_00	.Je commence en plaçant le tronc bleu.§
+	action_01	.Pour commencer les feuillages, mets une barre rouge orientée Est-Ouest, centrée sur le cube précédent. 
+	action_02	.Mets une brique rouge orientée Est-Ouest, centrée sur la barre précédente. 
+	action_03	.Pour terminer les feuillages, mets un cube rouge, centré sur la brique précédente. 
+	action_n	.Le sapin est fini.§
+
+
+
+
+with the tags
+	action_-1	.Je vais vous aider à construire un sapin avec un tronc bleu et des feuillages rouges.§
+	action_00	.Je commence en plaçant le tronc bleu.§
+	action_01	.Pour commencer les feuillages, <context>mets une@ barre rouge orientée Est-Ouest, <what><RET>centrée sur le@ cube précédent. <where><RETN>
+	action_02	.Mets une@ brique rouge orientée Est-Ouest, <what><RET>centrée sur la@ barre précédente. <where><RETN>
+	action_03	.Pour terminer les feuillages, <context>mets un@ cube rouge, <what><RET>centré sur la@ brique précédente. <where><RETN>
+	action_n	.Le sapin est fini.§
+
+
+
+
+
