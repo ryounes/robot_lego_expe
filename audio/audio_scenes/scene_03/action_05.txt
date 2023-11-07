@@ -1,0 +1,5 @@
+0.0638548731803894	1.6137868165969849	0action_5_idle0	.Pour terminer la tour rouge, 
+1.6137868165969849	2.6528797149658203	0action_5_PickH	mets-en un dernier~ @ 2.008526086807251
+2.6528797149658203	2.6528797149658203	0action_5_Retract0	"Nothing is said"
+2.6528797149658203	3.3320634	0action_5_PlaceH	dessus.
+3.3320634	3.3320634	0action_5_RetractNextP	"Nothing is said"

@@ -1,0 +1,54 @@
+
+Tags in sentence
+		dic = {
+			"context": robot arm does nothing, and only the audio is played stating the context
+			"what": stating what
+			"where": stating where
+			"REF": referencing an object before stating where (e.g. action_06 action_11)
+			"RET": retract to mid section awaiting user participation (same position as RETN)
+			"RETN": used as a starting point for the next action (same position as RET)
+			"MRET": mini retraction such as in actions 6 and 11
+		}
+
+
+The robot tags
+	<ABC>
+	A : precondition
+	B : indication of the action; 
+		idle means robot does nothing; 
+		ref means there is a reference, (e.g. action_06 action_11)
+	C : postcondition
+
+without the tags
+	action_-1	.Je vais vous aider à construire une tour bleue, un escalier jaune et une tour rouge.§
+	action_00	.Je commence en plaçant un cube de la tour bleue.§
+	action_01	.Mets un autre cube bleu~ dessus. 
+	action_02	.Pour terminer la tour, mets-en un dernier~ dessus. 
+	action_03	.Pour commencer la tour rouge, mets un cube rouge sur la table, au Sud de la tour bleue en laissant quatre tenons libres. son côté Est doit être aligné avec le côté Ouest de la tour. 
+	action_04	.Mets-en un autre~ dessus. 
+	action_05	.Pour terminer la tour rouge, mets-en un dernier~ dessus. 
+	action_06	.Pour commencer l'escalier, mets une barre jaune orientée Nord-Sud sur la table, à l'Ouest de la tour rouge en laissant six tenons libres. son côté Sud doit être aligné avec celui de la tour rouge. 
+	action_07	.Mets une brique jaune orientée Nord-Sud, sur la barre précédente, avec les côtés Nord alignés. 
+	action_08	.Pour terminer l'escalier, mets un cube jaune, sur la partie Nord de la brique précédente. 
+	action_n	.La construction est finie.§
+
+
+
+
+
+with the tags
+	action_-1	.Je vais vous aider à construire une tour bleue, un escalier jaune et une tour rouge.§
+	action_00	.Je commence en plaçant un cube de la tour bleue.§
+	action_01	.Mets un@ autre cube bleu~ <what><RET>dessus. <where><RETN>
+	action_02	.Pour terminer la tour, <context>mets-en un@ dernier~ <what><RET>dessus. <where><RETN>
+	action_03	.Pour commencer la tour rouge, <context>mets un@ cube rouge, <what><RET>sur la table, au Sud de la@ tour bleue en laissant quatre tenons libres. son côté Est doit être aligné avec le côté Ouest de la tour. <where><RETN>
+	action_04	.Mets-en un@ autre~ <what><RET>dessus. <where><RETN>
+	action_05	.Pour terminer la tour rouge, <context>mets-en un@ dernier~ <what><RET>dessus. <where><RETN>
+	action_06	.Pour commencer l'escalier, <context>mets une@ barre jaune orientée Nord-Sud, <what><RET>sur la table, à l'Ouest de la@ tour rouge en laissant six tenons libres. son côté Sud doit être aligné avec celui de la tour rouge. <where><RETN>
+	action_07	.Mets une@ brique jaune orientée Nord-Sud, <what><RET>sur la@ barre précédente, <where>avec les côtés Nord alignés. <RETN>
+	action_08	.Pour terminer l'escalier, <context>mets un@ cube jaune, <what><RET>sur la@ partie Nord de la brique précédente. <where><RETN>
+	action_n	.La construction est finie.§
+
+
+
+

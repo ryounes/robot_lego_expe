@@ -1,0 +1,4 @@
+0.0638548731803894	1.073922872543335	0action_8_PickH	.Mets-en un autre~ @ 0.5688889026641846
+1.073922872543335	1.073922872543335	0action_8_Retract0	"Nothing is said"
+1.073922872543335	1.7531066	0action_8_PlaceH	dessus.
+1.7531066	1.7531066	0action_8_RetractNextP	"Nothing is said"

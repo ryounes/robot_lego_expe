@@ -1,0 +1,4 @@
+0.0638548731803894	2.4090702533721924	0action_7_PickH	.Mets-en une autre~ orientée Est-Ouest, @ 0.5340589582920074
+2.4090702533721924	2.4090702533721924	0action_7_Retract0	"Nothing is said"
+2.4090702533721924	3.0069842	0action_7_PlaceH	dessus.
+3.0069842	3.0069842	0action_7_RetractNextP	"Nothing is said"

@@ -1,0 +1,4 @@
+0.0638548731803894	2.3452154397964478	0action_7_PickH	.Mets une brique jaune orientée Nord-Sud, @ 0.47020408511161804
+2.3452154397964478	2.3452154397964478	0action_7_Retract0	"Nothing is said"
+2.3452154397964478	5.4450793	0action_7_PlaceH	sur la barre précédente, avec les côtés Nord alignés.@ 2.647074818611145
+5.4450793	5.4450793	0action_7_RetractNextP	"Nothing is said"

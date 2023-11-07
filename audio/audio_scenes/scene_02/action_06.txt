@@ -1,0 +1,5 @@
+0.0638548731803894	1.387392282485962	0action_6_idle0	.Pour commencer le mur, 
+1.387392282485962	3.7384127378463745	0action_6_PickH	mets une brique rouge orientée Est-Ouest, @ 1.8169614672660828
+3.7384127378463745	3.7384127378463745	0action_6_Retract0	"Nothing is said"
+3.7384127378463745	7.581315	0action_6_PlaceH	sur la table, à l'Est de la tour rouge en laissant deux tenons libres.@ 5.398639440536499
+7.581315	7.581315	0action_6_RetractNextP	"Nothing is said"
