@@ -1,0 +1,5 @@
+0.0638548731803894	1.0623129606246948	0action_6_idle0	.Pour faire le cou, 
+1.0623129606246948	2.298775553703308	0action_6_PickH	mets un cube jaune, @ 1.3990022540092468
+2.298775553703308	2.298775553703308	0action_6_Retract0	"Nothing is said"
+2.298775553703308	4.8181405	0action_6_PlaceH	sur la partie Est de la brique précédente.@ 2.623854875564575
+4.8181405	4.8181405	0action_6_RetractNextP	"Nothing is said"

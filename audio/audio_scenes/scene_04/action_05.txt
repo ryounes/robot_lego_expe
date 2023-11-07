@@ -1,0 +1,5 @@
+0.0638548731803894	1.3699772953987122	0action_5_idle0	.Pour terminer la croix, 
+1.3699772953987122	2.670294761657715	0action_5_PickH	mets un cube jaune, @ 1.7182766199111938
+2.670294761657715	2.670294761657715	0action_5_Retract0	"Nothing is said"
+2.670294761657715	4.9342403	0action_5_PlaceH	collé à l'Ouest de la barre précédente.@ 3.715192675590515
+4.9342403	4.9342403	0action_5_RetractNextP	"Nothing is said"

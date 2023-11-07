@@ -1,0 +1,53 @@
+
+Tags in sentence
+		dic = {
+			"context": robot arm does nothing, and only the audio is played stating the context
+			"what": stating what
+			"where": stating where
+			"REF": referencing an object before stating where (e.g. action_06 action_11)
+			"RET": retract to mid section awaiting user participation (same position as RETN)
+			"RETN": used as a starting point for the next action (same position as RET)
+			"MRET": mini retraction such as in actions 6 and 11
+		}
+
+
+The robot tags
+	<ABC>
+	A : precondition
+	B : indication of the action; 
+		idle means robot does nothing; 
+		ref means there is a reference, (e.g. action_06 action_11)
+	C : postcondition
+
+without the tags
+	action_-1	.Je vais vous aider à construire une voiture avec deux roues bleues et un corps rouge.§
+	action_00	.Je commence en plaçant la première roue bleue.§
+	action_01	.Pour faire la deuxième roue bleue, mets un autre cube bleu, à l'Ouest de la première roue bleue en laissant quatre tenons libres. 
+	action_02	.Pour commencer le corps, mets une barre rouge orientée Est-Ouest, centrée sur le cube précédent. 
+	action_03	.Mets-en une autre orientée Est-Ouest, collée à l'Est de la barre précédente. 
+	action_04	.Mets une rampe rouge orientée Est-Ouest, sur la barre précédente, avec les côtés Est alignés. 
+	action_05	.Mets une barre rouge orientée Est-Ouest, collée à l'Ouest de la rampe précédente. 
+	action_06	.Pour terminer le corps, mets une rampe rouge orientée Est-Ouest, qui recouvre la rampe et la barre précédente du corps. 
+	action_n	.La voiture est finie.§
+
+
+
+
+
+with the tags
+	action_-1	.Je vais vous aider à construire une voiture avec deux roues bleues et un corps rouge.§
+	action_00	.Je commence en plaçant la première roue bleue.§
+	action_01	.Pour faire la deuxième roue bleue, <context>mets un@ autre cube bleu, <what><RET>à l'Ouest de la@ première roue bleue en laissant quatre tenons libres. <where><RETN>
+	action_02	.Pour commencer le corps, <context>mets une@ barre rouge orientée Est-Ouest, <what><RET>centrée sur le@ cube précédent. <where><RETN>
+	action_03	.Mets-en une@ autre orientée Est-Ouest, <what><RET>collée à l'Est de la@ barre précédente. <where><RETN>
+	action_04	.Mets une@ rampe rouge orientée Est-Ouest, <what><RET>sur la@ barre précédente, <where>avec les côtés Est alignés. <RETN>
+	action_05	.Mets une@ barre rouge orientée Est-Ouest, <what><RET>collée à l'Ouest de la@ rampe précédente. <where><RETN>
+	action_06	.Pour terminer le corps, <context>mets une@ rampe rouge orientée Est-Ouest, <what><RET>qui recouvre la rampe et la barre précédente du corps. <where><RETN>
+	action_n	.La voiture est finie.§
+
+
+
+
+
+
+

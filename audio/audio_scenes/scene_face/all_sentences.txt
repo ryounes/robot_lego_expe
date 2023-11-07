@@ -1,0 +1,53 @@
+
+Tags in sentence
+		dic = {
+			"context": robot arm does nothing, and only the audio is played stating the context
+			"what": stating what
+			"where": stating where
+			"REF": referencing an object before stating where (e.g. action_06 action_11)
+			"RET": retract to mid section awaiting user participation (same position as RETN)
+			"RETN": used as a starting point for the next action (same position as RET)
+			"MRET": mini retraction such as in actions 6 and 11
+		}
+
+
+The robot tags
+	<ABC>
+	A : precondition
+	B : indication of the action; 
+		idle means robot does nothing; 
+		ref means there is a reference, (e.g. action_06 action_11)
+	C : postcondition
+
+without the tags
+	action_-1	.Je vais vous aider à construire un visage avec deux yeux bleus, une bouche rouge et deux sourcils jaunes.§
+	action_00	.Je commence en plaçant le premier oeil bleu.§
+	action_01	.Pour faire le deuxième oeil bleu, mets un autre cube bleu, à l'Ouest du premier oeil bleu en laissant deux tenons libres. 
+	action_02	.Pour commencer la bouche, mets un cube rouge, au Sud du deuxième oeil bleu en laissant deux tenons libres. son côté Est doit être aligné avec le côté Ouest du deuxième oeil bleu. 
+	action_03	.Mets une barre rouge orientée Est-Ouest, au coin Sud-Est du cube précédent. 
+	action_04	.Pour terminer la bouche, mets un cube rouge, au coin Nord-Est de la barre précédente. 
+	action_05	.Pour faire le premier sourcil, mets une brique jaune orientée Est-Ouest, au Nord du premier oeil bleu en laissant deux tenons libres. son côté Ouest doit être aligné avec celui du premier oeil bleu. 
+	action_06	.Pour faire le deuxième sourcil jaune, mets-en une autre orientée Est-Ouest, au Nord du deuxième oeil bleu en laissant deux tenons libres. son côté Est doit être aligné avec celui du deuxième oeil bleu. 
+	action_n	.Le visage est fini.§
+
+
+
+
+
+with the tags
+	action_-1	.Je vais vous aider à construire un visage avec deux yeux bleus, une bouche rouge et deux sourcils jaunes.§
+	action_00	.Je commence en plaçant le premier oeil bleu.§
+	action_01	.Pour faire le deuxième oeil bleu, <context>mets un@ autre cube bleu, <what><RET>à l'Ouest du@ premier oeil bleu en laissant deux tenons libres. <where><RETN>
+	action_02	.Pour commencer la bouche, <context>mets un@ cube rouge, <what><RET>au Sud du@ deuxième oeil bleu en laissant deux tenons libres. son côté Est doit être aligné avec le côté Ouest du deuxième oeil bleu. <where><RETN>
+	action_03	.Mets une@ barre rouge orientée Est-Ouest, <what><RET>au coin Sud-Est du@ cube précédent. <where><RETN>
+	action_04	.Pour terminer la bouche, <context>mets un@ cube rouge, <what><RET>au coin Nord-Est de la@ barre précédente. <where><RETN>
+	action_05	.Pour faire le premier sourcil, <context>mets une@ brique jaune orientée Est-Ouest, <what><RET>au Nord du@ premier oeil bleu en laissant deux tenons libres. son côté Ouest doit être aligné avec celui du premier oeil bleu. <where><RETN>
+	action_06	.Pour faire le deuxième sourcil jaune, <context>mets-en une@ autre orientée Est-Ouest, <what><RET>au Nord du@ deuxième oeil bleu en laissant deux tenons libres. son côté Est doit être aligné avec celui du deuxième oeil bleu. <where><RETN>
+	action_n	.Le visage est fini.§
+
+
+
+
+
+
+

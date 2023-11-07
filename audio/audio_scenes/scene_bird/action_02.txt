@@ -1,0 +1,5 @@
+0.0638548731803894	1.2074376344680786	0action_2_idle0	.Pour faire la jambe, 
+1.2074376344680786	2.455510139465332	0action_2_PickH	mets un cube jaune, @ 1.5441269874572754
+2.455510139465332	2.455510139465332	0action_2_Retract0	"Nothing is said"
+2.455510139465332	5.15483	0action_2_PlaceH	qui recouvre la rampe et le cube précédent du pied.
+5.15483	5.15483	0action_2_RetractNextP	"Nothing is said"

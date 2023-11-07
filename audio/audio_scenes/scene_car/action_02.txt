@@ -1,0 +1,5 @@
+0.0638548731803894	1.375782310962677	0action_2_idle0	.Pour commencer le corps, 
+1.375782310962677	3.5700680017471313	0action_2_PickH	mets une barre rouge orientée Est-Ouest, @ 1.7298865914344788
+3.5700680017471313	3.5700680017471313	0action_2_Retract0	"Nothing is said"
+3.5700680017471313	5.28254	0action_2_PlaceH	centrée sur le cube précédent.@ 4.289886713027954
+5.28254	5.28254	0action_2_RetractNextP	"Nothing is said"

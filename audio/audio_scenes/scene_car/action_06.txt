@@ -1,0 +1,5 @@
+0.0638548731803894	1.387392282485962	0action_6_idle0	.Pour terminer le corps, 
+1.387392282485962	3.691972851753235	0action_6_PickH	mets une rampe rouge orientée Est-Ouest, @ 1.816961407661438
+3.691972851753235	3.691972851753235	0action_6_Retract0	"Nothing is said"
+3.691972851753235	6.4551473	0action_6_PlaceH	qui recouvre la rampe et la barre précédente du corps.
+6.4551473	6.4551473	0action_6_RetractNextP	"Nothing is said"

@@ -1,0 +1,5 @@
+0.0638548731803894	1.381587266921997	0action_3_idle0	.Pour commencer le corps, 
+1.381587266921997	3.72099769115448	0action_3_PickH	mets une brique jaune orientée Est-Ouest, @ 1.787936508655548
+3.72099769115448	3.72099769115448	0action_3_Retract0	"Nothing is said"
+3.72099769115448	7.3723354	0action_3_PlaceH	au-dessus avec le côté Ouest aligné avec celui du cube précédent.@ 6.362267732620239
+7.3723354	7.3723354	0action_3_RetractNextP	"Nothing is said"

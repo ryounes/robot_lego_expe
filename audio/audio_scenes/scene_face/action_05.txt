@@ -1,0 +1,5 @@
+0.0638548731803894	1.7240816354751587	0action_5_idle0	.Pour faire le premier sourcil, 
+1.7240816354751587	4.092517018318176	0action_5_PickH	mets une brique jaune orientée Est-Ouest, @ 2.1768707036972046
+4.092517018318176	4.092517018318176	0action_5_Retract0	"Nothing is said"
+4.092517018318176	10.623129	0action_5_PlaceH	au Nord du premier oeil bleu en laissant deux tenons libres. son côté Ouest doit être aligné avec celui du premier oeil bleu.@ 4.603356122970581
+10.623129	10.623129	0action_5_RetractNextP	"Nothing is said"

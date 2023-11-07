@@ -1,0 +1,57 @@
+
+Tags in sentence
+		dic = {
+			"context": robot arm does nothing, and only the audio is played stating the context
+			"what": stating what
+			"where": stating where
+			"REF": referencing an object before stating where (e.g. action_06 action_11)
+			"RET": retract to mid section awaiting user participation (same position as RETN)
+			"RETN": used as a starting point for the next action (same position as RET)
+			"MRET": mini retraction such as in actions 6 and 11
+		}
+
+
+The robot tags
+	<ABC>
+	A : precondition
+	B : indication of the action; 
+		idle means robot does nothing; 
+		ref means there is a reference, (e.g. action_06 action_11)
+	C : postcondition
+
+without the tags
+	action_-1	.Je vais vous aider à construire un oiseau avec un pied rouge, une jambe jaune, un corps jaune, un cou jaune, un bec rouge et une tête jaune.§
+	action_00	.Je commence en plaçant une rampe du pied rouge.§
+	action_01	.Pour terminer le pied, mets un cube rouge, collé à l'Ouest de la rampe précédente. 
+	action_02	.Pour faire la jambe, mets un cube jaune, qui recouvre la rampe et le cube précédent du pied. 
+	action_03	.Pour commencer le corps, mets une brique jaune orientée Est-Ouest, au-dessus avec le côté Ouest aligné avec celui du cube précédent. 
+	action_04	.Mets une barre jaune orientée Est-Ouest, au-dessus avec le côté Est aligné avec celui de la brique précédente. 
+	action_05	.Pour terminer le corps, mets une brique jaune orientée Est-Ouest, sur la barre précédente, avec les côtés Est alignés. 
+	action_06	.Pour faire le cou, mets un cube jaune, sur la partie Est de la brique précédente. 
+	action_07	.Pour faire le bec, mets une rampe rouge orientée Est-Ouest, au-dessus avec le côté Ouest aligné avec celui du cube précédent. 
+	action_08	.Pour faire la tête, mets un cube jaune, sur la partie Ouest de la rampe précédente. 
+	action_n	.L'oiseau est fini.§
+
+
+
+
+
+with the tags
+	action_-1	.Je vais vous aider à construire un oiseau avec un pied rouge, une jambe jaune, un corps jaune, un cou jaune, un bec rouge et une tête jaune.§
+	action_00	.Je commence en plaçant une rampe du pied rouge.§
+	action_01	.Pour terminer le pied, <context>mets un@ cube rouge, <what><RET>collé à l'Ouest de la@ rampe précédente. <where><RETN>
+	action_02	.Pour faire la jambe, <context>mets un@ cube jaune, <what><RET>qui recouvre la rampe et le cube précédent du pied. <where><RETN>
+	action_03	.Pour commencer le corps, <context>mets une@ brique jaune orientée Est-Ouest, <what><RET>au-dessus avec le côté Ouest aligné avec celui du@ cube précédent. <where><RETN>
+	action_04	.Mets une@ barre jaune orientée Est-Ouest, <what><RET>au-dessus avec le côté Est aligné avec celui de la@ brique précédente. <where><RETN>
+	action_05	.Pour terminer le corps, <context>mets une@ brique jaune orientée Est-Ouest, <what><RET>sur la@ barre précédente, <where>avec les côtés Est alignés. <RETN>
+	action_06	.Pour faire le cou, <context>mets un@ cube jaune, <what><RET>sur la@ partie Est de la brique précédente. <where><RETN>
+	action_07	.Pour faire le bec, <context>mets une@ rampe rouge orientée Est-Ouest, <what><RET>au-dessus avec le côté Ouest aligné avec celui du@ cube précédent. <where><RETN>
+	action_08	.Pour faire la tête, <context>mets un@ cube jaune, <what><RET>sur la@ partie Ouest de la rampe précédente. <where><RETN>
+	action_n	.L'oiseau est fini.§
+
+
+
+
+
+
+

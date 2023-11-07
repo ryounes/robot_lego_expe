@@ -1,0 +1,5 @@
+0.0638548731803894	1.6660317182540894	0action_1_idle0	.Pour faire la deuxième roue bleue, 
+1.6660317182540894	3.163718819618225	0action_1_PickH	mets un autre cube bleu, @ 2.107210874557495
+3.163718819618225	3.163718819618225	0action_1_Retract0	"Nothing is said"
+3.163718819618225	6.675737	0action_1_PlaceH	à l'Ouest de la première roue bleue en laissant quatre tenons libres.@ 3.924172282218933
+6.675737	6.675737	0action_1_RetractNextP	"Nothing is said"

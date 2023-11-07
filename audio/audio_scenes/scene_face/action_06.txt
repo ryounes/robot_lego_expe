@@ -1,0 +1,5 @@
+0.0638548731803894	2.0781859159469604	0action_6_idle0	.Pour faire le deuxième sourcil jaune, 
+2.0781859159469604	4.162176847457886	0action_6_PickH	mets-en une autre orientée Est-Ouest, @ 2.6006349325180054
+4.162176847457886	4.162176847457886	0action_6_Retract0	"Nothing is said"
+4.162176847457886	10.634739	0action_6_PlaceH	au Nord du deuxième oeil bleu en laissant deux tenons libres. son côté Est doit être aligné avec celui du deuxième oeil bleu.@ 4.713650941848755
+10.634739	10.634739	0action_6_RetractNextP	"Nothing is said"

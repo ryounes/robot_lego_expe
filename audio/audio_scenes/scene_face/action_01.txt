@@ -1,0 +1,5 @@
+0.0638548731803894	1.706666648387909	0action_1_idle0	.Pour faire le deuxième oeil bleu, 
+1.706666648387909	3.2101588249206543	0action_1_PickH	mets un autre cube bleu, @ 2.1478458642959595
+3.2101588249206543	3.2101588249206543	0action_1_Retract0	"Nothing is said"
+3.2101588249206543	6.3854876	0action_1_PlaceH	à l'Ouest du premier oeil bleu en laissant deux tenons libres.@ 3.8777323961257935
+6.3854876	6.3854876	0action_1_RetractNextP	"Nothing is said"
