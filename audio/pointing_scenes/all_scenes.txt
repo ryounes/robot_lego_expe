@@ -1,0 +1,149 @@
+SCENE 01
+	action_-2	.Je vais vous aider à construire un escalier jaune, deux tours bleues et deux ponts rouges.§
+	action_-1	.Je commence en plaçant un cube de la première tour bleue.§
+	action_00	.Si nécessaire, appuies sur le cube pour l'enfoncer complètement.§
+	action_01	.Mets un autre cube bleu~ dessus. 
+	action_02	.Pour terminer la première tour, mets-en un dernier~ dessus. 
+	action_03	.Pour commencer l'escalier, mets cette barre jaune orientée Est-Ouest, sur la table, à l'Est de la première tour bleue en laissant deux tenons libres. 
+	action_04	.Mets cette brique jaune orientée Est-Ouest, sur la barre précédente, avec les côtés Ouest alignés. 
+	action_05	.Pour terminer l'escalier, mets ce cube jaune, sur la partie Ouest de la brique précédente. 
+	action_06	.Pour faire le premier pont, mets cette barre rouge orientée Est-Ouest, qui recouvre le sommet de l'escalier et le sommet de la première tour. 
+	action_07	.Pour commencer la deuxième tour bleue, mets ce cube bleu, sur la table, au Sud de la première tour bleue en laissant deux tenons libres. 
+	action_08	.Mets-en un autre~ dessus. 
+	action_09	.Mets-en encore un autre~ dessus. 
+	action_10	.Pour terminer la deuxième tour bleue, mets-en un dernier~ dessus. 
+	action_11	.Pour faire le deuxième pont rouge, mets cette barre rouge orientée Nord-Sud, qui recouvre le sommet bleu de la deuxième tour bleue et la partie Ouest de la barre du premier pont. 
+	action_n	.La construction est finie.§
+
+SCENE 02
+	action_-2	.Je vais vous aider à construire une tour rouge, un mur rouge, un pont rouge, un escalier jaune, une tour bleue et un pont jaune.§
+	action_-1	.Je commence en plaçant un cube de la tour rouge.§
+	action_00	.Si nécessaire, appuies sur le cube pour l'enfoncer complètement.§
+	action_01	.Mets un autre cube rouge~ dessus. 
+	action_02	.Pour terminer la tour, mets-en un dernier~ dessus. 
+	action_03	.Pour commencer l'escalier, mets cette barre jaune orientée Nord-Sud, sur la table, collée au Sud de la tour rouge. 
+	action_04	.Mets cette brique jaune orientée Nord-Sud, sur la barre précédente, avec les côtés Nord alignés. 
+	action_05	.Pour terminer l'escalier, mets ce cube jaune, sur la partie Nord de la brique précédente. 
+	action_06	.Pour commencer le mur, mets cette brique rouge orientée Est-Ouest, sur la table, à l'Est de la tour rouge en laissant deux tenons libres. 
+	action_07	.Mets-en une autre~ orientée Est-Ouest, dessus. 
+	action_08	.Pour terminer le mur, mets-en une dernière~ orientée Est-Ouest, dessus. 
+	action_09	.Pour faire le pont, mets cette barre rouge orientée Est-Ouest, qui recouvre le sommet de la tour et la partie Ouest du sommet du mur. 
+	action_10	.Pour commencer la tour bleue, mets ce cube bleu, sur la table, au Sud du mur rouge en laissant deux tenons libres. son côté Est doit être aligné avec celui du mur. 
+	action_11	.Mets-en un autre~ dessus. 
+	action_12	.Pour terminer la tour bleue, mets-en un dernier~ dessus. 
+	action_13	.Pour faire le pont jaune, mets cette barre jaune orientée Nord-Sud, qui recouvre le sommet bleu de la tour bleue et la partie Est du sommet du mur. 
+	action_n	.La construction est finie.§
+
+SCENE 03
+	action_-2	.Je vais vous aider à construire une tour bleue, un escalier jaune et une tour rouge.§
+	action_-1	.Je commence en plaçant un cube de la tour bleue.§
+	action_00	.Si nécessaire, appuies sur le cube pour l'enfoncer complètement.§
+	action_01	.Mets un autre cube bleu~ dessus. 
+	action_02	.Pour terminer la tour, mets-en un dernier~ dessus. 
+	action_03	.Pour commencer la tour rouge, mets ce cube rouge, sur la table, au Sud de la tour bleue en laissant quatre tenons libres. son côté Est doit être aligné avec le côté Ouest de la tour. 
+	action_04	.Mets-en un autre~ dessus. 
+	action_05	.Pour terminer la tour rouge, mets-en un dernier~ dessus. 
+	action_06	.Pour commencer l'escalier, mets cette barre jaune orientée Nord-Sud, sur la table, à l'Ouest de la tour rouge en laissant six tenons libres. son côté Sud doit être aligné avec celui de la tour rouge. 
+	action_07	.Mets cette brique jaune orientée Nord-Sud, sur la barre précédente, avec les côtés Nord alignés. 
+	action_08	.Pour terminer l'escalier, mets ce cube jaune, sur la partie Nord de la brique précédente. 
+	action_n	.La construction est finie.§
+
+SCENE 04
+	action_-2	.Je vais vous aider à construire une tour bleue, une croix jaune et une tour rouge.§
+	action_-1	.Je commence en plaçant un cube de la tour bleue.§
+	action_00	.Si nécessaire, appuies sur le cube pour l'enfoncer complètement.§
+	action_01	.Mets un autre cube bleu~ dessus. 
+	action_02	.Pour terminer la tour, mets-en un dernier~ dessus. 
+	action_03	.Pour commencer la croix, mets ce cube jaune, sur la table, à l'Ouest de la tour bleue en laissant cinq tenons libres. son côté Nord doit être aligné avec le côté Sud de la tour. 
+	action_04	.Mets cette barre jaune orientée Nord-Sud, collée à l'Ouest du cube précédent. 
+	action_05	.Pour terminer la croix, mets ce cube jaune, collé à l'Ouest de la barre précédente. 
+	action_06	.Pour commencer la tour rouge, mets ce cube rouge, à l'Ouest de la tour bleue en laissant un tenon libre et cinq tenons libres vers le Sud. 
+	action_07	.Mets-en un autre~ dessus. 
+	action_08	.Pour terminer la tour rouge, mets-en un dernier~ dessus. 
+	action_n	.La construction est finie.§
+
+BIRD
+	action_-2	.Je vais vous aider à construire un oiseau avec un pied rouge, une jambe jaune, un corps jaune, un cou jaune, un bec rouge et une tête jaune.§
+	action_-1	.Je commence en plaçant une rampe du pied rouge.§
+	action_00	.Si nécessaire, appuies sur la rampe pour l'enfoncer complètement.§
+	action_01	.Pour terminer le pied, mets ce cube rouge, collé à l'Ouest de la rampe précédente. 
+	action_02	.Pour faire la jambe, mets ce cube jaune, qui recouvre la rampe et le cube précédent du pied. 
+	action_03	.Pour commencer le corps, mets cette brique jaune orientée Est-Ouest, au-dessus avec le côté Ouest aligné avec celui du cube précédent. 
+	action_04	.Mets cette barre jaune orientée Est-Ouest, au-dessus avec le côté Est aligné avec celui de la brique précédente. 
+	action_05	.Pour terminer le corps, mets cette brique jaune orientée Est-Ouest, sur la barre précédente, avec les côtés Est alignés. 
+	action_06	.Pour faire le cou, mets ce cube jaune, sur la partie Est de la brique précédente. 
+	action_07	.Pour faire le bec, mets cette rampe rouge orientée Est-Ouest, au-dessus avec le côté Ouest aligné avec celui du cube précédent. 
+	action_08	.Pour faire la tête, mets ce cube jaune, sur la partie Ouest de la rampe précédente. 
+	action_n	.L'oiseau est fini.§
+
+CAR
+	action_-2	.Je vais vous aider à construire une voiture avec deux roues bleues et un corps rouge.§
+	action_-1	.Je commence en plaçant la première roue bleue.§
+	action_00	.Si nécessaire, appuies sur le cube pour l'enfoncer complètement.§
+	action_01	.Pour faire la deuxième roue bleue, mets un autre cube bleu, à l'Ouest de la première roue bleue en laissant quatre tenons libres. 
+	action_02	.Pour commencer le corps, mets cette barre rouge orientée Est-Ouest, centrée sur le cube précédent. 
+	action_03	.Mets-en une autre orientée Est-Ouest, collée à l'Est de la barre précédente. 
+	action_04	.Mets cette rampe rouge orientée Est-Ouest, sur la barre précédente, avec les côtés Est alignés. 
+	action_05	.Mets cette barre rouge orientée Est-Ouest, collée à l'Ouest de la rampe précédente. 
+	action_06	.Pour terminer le corps, mets cette rampe rouge orientée Est-Ouest, qui recouvre la rampe et la barre précédente du corps. 
+	action_n	.La voiture est finie.§
+
+FACE
+	action_-2	.Je vais vous aider à construire un visage avec deux yeux bleus, une bouche rouge et deux sourcils jaunes.§
+	action_-1	.Je commence en plaçant le premier oeil bleu.§
+	action_00	.Si nécessaire, appuies sur le cube pour l'enfoncer complètement.§
+	action_01	.Pour faire le deuxième oeil bleu, mets un autre cube bleu, à l'Ouest du premier oeil bleu en laissant deux tenons libres. 
+	action_02	.Pour commencer la bouche, mets ce cube rouge, au Sud du deuxième oeil bleu en laissant deux tenons libres. son côté Est doit être aligné avec le côté Ouest du deuxième oeil bleu. 
+	action_03	.Mets cette barre rouge orientée Est-Ouest, au coin Sud-Est du cube précédent. 
+	action_04	.Pour terminer la bouche, mets ce cube rouge, au coin Nord-Est de la barre précédente. 
+	action_05	.Pour faire le premier sourcil, mets cette brique jaune orientée Est-Ouest, au Nord du premier oeil bleu en laissant deux tenons libres. son côté Ouest doit être aligné avec celui du premier oeil bleu. 
+	action_06	.Pour faire le deuxième sourcil jaune, mets-en une autre orientée Est-Ouest, au Nord du deuxième oeil bleu en laissant deux tenons libres. son côté Est doit être aligné avec celui du deuxième oeil bleu. 
+	action_n	.Le visage est fini.§
+
+HOUSE
+	action_-2	.Je vais vous aider à construire une maison avec deux tours jaunes, un pont jaune et un toit rouge.§
+	action_-1	.Je commence en plaçant un cube de la première tour jaune.§
+	action_00	.Si nécessaire, appuies sur le cube pour l'enfoncer complètement.§
+	action_01	.Mets un autre cube jaune~ dessus. 
+	action_02	.Pour terminer la première tour, mets-en un dernier~ dessus. 
+	action_03	.Pour commencer la deuxième tour jaune, mets-en encore un autre, sur la table, à l'Ouest de la première tour jaune en laissant deux tenons libres. 
+	action_04	.Mets-en encore un autre~ dessus. 
+	action_05	.Pour terminer la deuxième tour jaune, mets-en un dernier~ dessus. 
+	action_06	.Pour faire le pont, mets cette barre jaune orientée Est-Ouest, qui recouvre les deux tours. 
+	action_07	.Pour commencer le toit, mets cette brique rouge orientée Est-Ouest, centrée sur la barre précédente. 
+	action_08	.Mets cette rampe rouge orientée Est-Ouest, collée à l'Ouest de la brique précédente. 
+	action_09	.Mets cette rampe rouge orientée Est-Ouest, collée à l'Est de la brique précédente. 
+	action_10	.Mets-en encore une autre orientée Est-Ouest, qui recouvre la brique et la rampe précédente du toit. 
+	action_11	.Pour terminer le toit, mets-en une dernière orientée Est-Ouest, collée à l'Ouest de la rampe précédente. 
+	action_n	.La maison est finie.
+
+STAIRCASE BRIDGE
+	action_-2	.Je vais vous aider à construire une passerelle avec deux escaliers rouges et un pont jaune.§
+	action_-1	.Je commence en plaçant une barre du premier escalier rouge.§
+	action_00	.Si nécessaire, appuies sur la barre pour l'enfoncer complètement.§
+	action_01	.Mets cette brique rouge orientée Est-Ouest, sur la barre précédente, avec les côtés Ouest alignés. 
+	action_02	.Pour terminer le premier escalier, mets ce cube rouge, sur la partie Ouest de la brique précédente. 
+	action_03	.Pour commencer le deuxième escalier rouge, mets cette barre rouge orientée Est-Ouest, sur la table, à l'Ouest du premier escalier rouge en laissant deux tenons libres. 
+	action_04	.Mets cette brique rouge orientée Est-Ouest, sur la barre, avec les côtés Est alignés. 
+	action_05	.Pour terminer le deuxième escalier rouge, mets ce cube rouge, sur la partie Est de la brique. 
+	action_06	.Pour faire le pont, mets cette barre jaune orientée Est-Ouest, qui recouvre les deux escaliers. 
+	action_n	.La passerelle est finie.§ 
+
+TREE
+	action_-2	.Je vais vous aider à construire un sapin avec un tronc bleu, des feuillages rouges et un rocher jaune.§
+	action_-1	.Je commence en plaçant le rocher jaune.§
+	action_00	.Si nécessaire, appuies sur le cube pour l'enfoncer complètement.§
+	action_01	.Pour faire le tronc, mets ce cube bleu, à l'Est du rocher jaune en laissant quatre tenons libres et quatre tenons libres vers le Nord. 
+	action_02	.Pour commencer les feuillages, mets cette barre rouge orientée Est-Ouest, centrée sur le cube précédent. 
+	action_03	.Mets cette brique rouge orientée Est-Ouest, centrée sur la barre précédente. 
+	action_04	.Pour terminer les feuillages, mets ce cube rouge, centré sur la brique précédente. 
+	action_n	.Le sapin est fini.§
+
+WELL
+	action_-2	.Je vais vous aider à construire un puits rouge.§
+	action_-1	.Je commence en plaçant une brique du puits rouge.§
+	action_00	.Si nécessaire, appuies sur la brique pour l'enfoncer complètement.§
+	action_01	.Mets cette brique rouge orientée Nord-Sud, collée à l'Ouest. son côté Nord doit être aligné avec celui de la brique précédente. 
+	action_02	.Mets cette brique rouge orientée Est-Ouest, collée au Sud. son côté Ouest doit être aligné avec celui de la brique précédente. 
+	action_03	.Pour terminer le puits, mets cette brique rouge orientée Nord-Sud, collée à l'Est. son côté Sud doit être aligné avec celui de la brique précédente. 
+	action_n	.Le puits est fini.§
